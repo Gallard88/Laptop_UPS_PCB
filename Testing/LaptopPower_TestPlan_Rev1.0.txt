@@ -6,16 +6,21 @@ Tests to perform:
 
 1. Charger Voltage
 Charger should output a voltage of 14V.
+13.88V - Passed
 
 2. Charger Overload
 Check that when overloaded the charger IC current limits to ~1A
+1.3A - Passed
 
 3. Battery charge current
 Verify battery trickle charges correctly. Battery should float to 13-14V
+Passed
 
 4. 5V regulator Voltage 
 Circuit should regulate around 5V.
+4.85V - Passed
 
 5. 5V regulator Current 
 Circuit should source 4-5A and should enter constant current mode when there is a fault.
+4A - Passed
 
